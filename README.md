@@ -94,7 +94,7 @@ Eddie Kao (eddie@digik.com.tw)
 
 ## 簡介
 
-我目前是位 Ruby/Rails/iOS app 的開發者/講師，這是我自己每天工作上會用到的 Vim 設定檔跟用到的 plugin。其實這是我從另一個專案(https://github.com/kaochenlong/eddie-vim)拿掉不常用的設定及 plugin，重新整理而成的。
+我目前是位 Ruby/Rails/iOS app 的開發者/講師，這是我自己每天工作上會用到的 Vim 設定檔跟用到的 plugin。其實這是我從[另一個專案](https://github.com/kaochenlong/eddie-vim)拿掉不常用的設定及 plugin，重新整理而成的。
 
 我把 Vim 的主要設定檔放在 `plugin/settings/settings.vim`，並且把其它 plugin 的設定放在 `plugin/settings` 資料夾中。
 
