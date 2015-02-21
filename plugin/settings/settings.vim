@@ -30,6 +30,7 @@ set key=			                        " disable encryption
 set synmaxcol=128
 set viminfo=			                    " disable .viminfo file
 set ttyfast                           " send more chars while redrawing
+set lazyredraw
 
 filetype on                           " enable filetype detection
 filetype indent on                    " enable filetype-specific indenting
@@ -102,9 +103,6 @@ vmap <S-TAB> <gv
 
 " remap VIM 0
 map 0 ^
-
-" return current opened file's dirctory
-cnoremap %% <C-R>=expand('%:h').'/'<CR>
 
 " cancel searched highlight
 noremap <CR> :nohlsearch<CR>
