@@ -38,3 +38,4 @@ function! TogglePresentationMode()
 endfunction
 
 map <leader>z :call TogglePresentationMode()<CR>
+
