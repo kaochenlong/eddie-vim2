@@ -1,6 +1,6 @@
-I'm a Ruby/Rails and iOS app developer, this is my personal Vim configurations and some plugins which I used in my daily job, and I remove and re-organized settings and plugins from my another vim repository https://github.com/kaochenlong/eddie-vim
+I'm currently a Ruby/Rails/iOS app developer and instructor, this is my personal Vim configurations and some plugins which I used in my daily job, and I removed and reorganized redundant settings and plugins from my another vim repository https://github.com/kaochenlong/eddie-vim
 
-I put Vim related settings in `plugin/settings/settings.vim`, and isolate other plugins' settings in `plugin/settings` directory.
+I put Vim related settings in `plugin/settings/settings.vim`, and isolated other plugins' settings in `plugin/settings` directory.
 
 You might notice that there are several vimrc files:
 
@@ -11,7 +11,7 @@ You might notice that there are several vimrc files:
 
 you can make a symbolic link of your `~/.vimrc` to any one of them as you wish :)
 
-Vim looks like:
+my Vim looks like:
 
 ![image](https://raw.githubusercontent.com/kaochenlong/eddie-vim2/master/screenshots/vim.png)
 
@@ -65,7 +65,6 @@ If you already install `git` in your machine, and you trust me and my automatic 
 9. if you use Airline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/Lokaltog/powerline-fonts), patch the font and it should look pretty nice.
 
 10. you might need to install `ack` or `silver searcher` if you use `ack.vim`.
-
 
 ### Features and Key Mappings:
 

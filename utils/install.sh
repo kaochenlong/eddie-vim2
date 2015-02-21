@@ -1,4 +1,3 @@
-#
 # my VIMRC and plugins installer
 #
 # created by Eddie Kao <eddie@digik.com.tw>
@@ -84,3 +83,4 @@ echo "\033[0;34m<Eddie Kao> eddie@digik.com.tw\033[0m"
 echo ""
 
 exit
+
