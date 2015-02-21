@@ -11,8 +11,11 @@ You might notice that there are several vimrc files:
 
 you can make a symbolic link of your `~/.vimrc` to any one of them as you wish :)
 
+Vim looks like:
 
-and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
+![image](https://raw.githubusercontent.com/kaochenlong/eddie-vim2/master/screenshots/vim.png)
+
+color theme: <a href="http://ethanschoonover.com/solarized" target="blank">solarized dark</a>
 
 ## Usage
 
@@ -69,7 +72,6 @@ change directory to `~/.vim` and execute `./update.sh` script, it should do all 
 
 ### Features and Key Mappings:
 
-0. color theme: solarized_dark
 
 1. Toggle between working mode and presentation mode by `<leader>z`, but it only works in GUI version Vim. You can check [here](http://blog.eddie.com.tw/2012/03/14/switch-to-presentation-mode/) to see how it looks like.
 
