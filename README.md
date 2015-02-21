@@ -1,3 +1,5 @@
+## Intro
+
 I'm currently a Ruby/Rails/iOS app developer and instructor, this is my personal Vim configurations and some plugins which I used in my daily job, and I removed and reorganized redundant settings and plugins from my another vim repository https://github.com/kaochenlong/eddie-vim
 
 I put Vim related settings in `plugin/settings/settings.vim`, and isolated other plugins' settings in `plugin/settings` directory.
@@ -89,6 +91,8 @@ Enjoy it, and if there's any question or comment, feel free to let me know, or j
 Eddie Kao (eddie@digik.com.tw)
 
 ----
+
+## 簡介
 
 我目前是位 Ruby/Rails/iOS app 的開發者/講師，這是我自己每天工作上會用到的 Vim 設定檔跟用到的 plugin。其實這是我從另一個專案(https://github.com/kaochenlong/eddie-vim)拿掉不常用的設定及 plugin，重新整理而成的。
 
