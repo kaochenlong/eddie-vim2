@@ -1,0 +1,40 @@
+snippet lt
+	<%= link_to '${1:caption}', ${2:path} %>${3}
+snippet content_for
+	<%= content_for :${1:yield_label_name} do %>
+	  ${2}
+	<% end %>
+snippet provide
+	<% provide(:${1:variable}, '${2:content}') %>
+snippet form_for
+	<% form_for(@${1:model}) do |f| %>
+
+	<% end %>
+snippet label
+	<%= f.label :${1:attribute}, '${2:label}' %>
+snippet submit
+	<%= f.submit '${1:Submit}', class:'btn btn-primary' %>
+snippet ffta
+	<%= f.text_area :${1:attribute} %>
+snippet fftf
+	<%= f.text_field :${1:attribute} %>
+snippet each
+	<% ${1:collection}.each do |${2:member}| %>
+	  ${3}
+	<% end %>
+snippet if
+	<% if ${1:condition} %>
+	  ${2}
+	<% end %>
+snippet unless
+	<% unless ${1:cond} %>
+	  ${2}
+	<% end %>
+snippet ife
+	<% if ${1:cond} %>
+	  ${2}
+	<% else %>
+	  ${3}
+	<% end %>
+snippet yield
+	<%= yield :${1:partial} %>
