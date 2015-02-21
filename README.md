@@ -27,11 +27,11 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 1. via `curl`:
 
-`sh <(curl -L https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh)`
+    `sh <(curl -L https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install.sh)`
 
 2. or via `wget`:
 
-`sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh -O -)`
+    `sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install.sh -O -)`
 
 #### Manual installation
 
@@ -39,7 +39,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 2. `cd ~` to change directory to your home directory.
 3. copy files to your home directory:
 
-        git clone git://github.com/kaochenlong/eddie-vim.git
+   `git clone git://github.com/kaochenlong/eddie-vim.git`
 
 4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
 
@@ -54,7 +54,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
         ln -s .vim/vimrc .vimrc
 
-7. if you're still not familiar with the movement in vim by HJKL or yanking and pasting text, I've made a easier version:
+7. if you're still not familiar with the movements in vim by HJKL or yanking and pasting text, I've made a easier version:
 
         ln -s .vim/easy-vimrc .vimrc
 
@@ -64,14 +64,10 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 9. if you use Airline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/Lokaltog/powerline-fonts), patch the font and it should look pretty nice.
 
-10. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
+10. you might need to install `ack` or `silver searcher` if you use `ack.vim`.
 
-### Update:
-
-change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
 
 ### Features and Key Mappings:
-
 
 1. Toggle between working mode and presentation mode by `<leader>z`, but it only works in GUI version Vim. You can check [here](http://blog.eddie.com.tw/2012/03/14/switch-to-presentation-mode/) to see how it looks like.
 
