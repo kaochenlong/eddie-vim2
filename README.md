@@ -49,7 +49,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 5. if you're still not familiar with the movements in vim by HJKL or yanking and pasting text, I've made a easier version:
 
-        ln -s .vim/easy-vimrc .vimrc
+        ln -s .vim/vimrc_easy .vimrc
 
 6. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
 
