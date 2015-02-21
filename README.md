@@ -123,11 +123,11 @@ Eddie Kao (eddie@digik.com.tw)
 
 1. 使用 `curl`:
 
-    `sh <(curl -L https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install.sh)`
+    `sh <(curl -L https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install_zhtw.sh)`
 
 2. 或使用 `wget`:
 
-    `sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install.sh -O -)`
+    `sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim2/raw/master/utils/install_zhtw.sh -O -)`
 
 以上兩個隨便選一個你喜歡的，複製並在你的終端機視窗貼上指令即可。
 
