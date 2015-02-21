@@ -72,12 +72,13 @@ If you already install `git` in your machine, and you trust me and my automatic 
 1. Toggle between working mode and presentation mode by `<leader>z`, but it only works in GUI version Vim. You can check [here](http://blog.eddie.com.tw/2012/03/14/switch-to-presentation-mode/) to see how it looks like.
 
 2. some usually used key mappings in normal mode:
-    a. `<F2>` to toggle NERDTree on and off.
-    b. `<F4>` to toggle Taglist window.
-    c. `<F5>` is the script runner, according to it's filetype, it will run Ruby(*.rb) ,Python(*.py) or PHP(*.php) file, even CoffeeScript(*.coffee, but you may have to install CoffeeScript first). If the filetype is VimScript, `<F5>` will reloadrun `:source %` and reload the current file.
-    d. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name.
-    e. hit `<leader>` twice to toggle comment on and off.
-    f. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+
+    * `<F2>` to toggle NERDTree on and off.
+    * `<F4>` to toggle Taglist window.
+    * `<F5>` is the script runner, according to it's filetype, it will run Ruby(\*.rb) ,Python(\*.py) or PHP(\*.php) file, even CoffeeScript(\*.coffee, but you may have to install CoffeeScript first). If the filetype is VimScript, `<F5>` will reloadrun `:source %` and reload the current file.
+    * hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name.
+    * hit `<leader>` twice to toggle comment on and off.
+    * `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
 3. Remove tailing whitespace automatically while saving.
 
