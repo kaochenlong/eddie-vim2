@@ -1,0 +1,18 @@
+" Pro version Vimrc
+" I kept all other settings in plugins/settings directory
+"
+" Eddie Kao
+" http://blog.eddie.com.tw
+" eddie@digik.com.tw
+
+execute pathogen#infect()
+
+" force myself to not to use the error keys
+map <UP> <NOP>
+map <DOWN> <NOP>
+map <LEFT> <NOP>
+map <RIGHT> <NOP>
+inoremap <UP> <NOP>
+inoremap <DOWN> <NOP>
+inoremap <LEFT> <NOP>
+inoremap <RIGHT> <NOP>
