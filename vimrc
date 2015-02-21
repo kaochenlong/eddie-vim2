@@ -7,12 +7,3 @@
 
 execute pathogen#infect()
 
-" force myself to not to use the error keys
-map <UP> <NOP>
-map <DOWN> <NOP>
-map <LEFT> <NOP>
-map <RIGHT> <NOP>
-inoremap <UP> <NOP>
-inoremap <DOWN> <NOP>
-inoremap <LEFT> <NOP>
-inoremap <RIGHT> <NOP>
