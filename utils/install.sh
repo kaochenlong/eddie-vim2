@@ -27,7 +27,7 @@ echo $vim_rc
 # check if vimrc is already exist
 if [ -L $vim_rc ] || [ -f $vim_rc ]
 then
-  echo "\033[0;31mThere's .vimrc in your home directory.\033[0;m"
+  echo "\033[0;31mThere's a .vimrc in your home directory.\033[0;m"
   read -p "Would you like to backup your .vimrc first? [y/n] " ans
   if [ "$ans" == "y" ]
   then
