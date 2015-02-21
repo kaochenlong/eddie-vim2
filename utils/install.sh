@@ -34,8 +34,6 @@ then
   then
     echo "backup your original $vim_rc to $vim_rc-$(date +%Y%m%d)-$backup_rand"
     mv $vim_rc $vim_rc$(date +%Y%m%d)-$backup_rand
-  else
-    exit
   fi
 fi
 
