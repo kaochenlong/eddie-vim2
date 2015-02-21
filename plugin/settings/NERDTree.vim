@@ -14,3 +14,6 @@ let NERDTreeIgnore=['\.pyc$']
 " open directory of current opened file
 map <leader>r :NERDTreeFind<cr>
 
+" close window if the only window left is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
