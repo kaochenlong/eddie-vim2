@@ -11,7 +11,7 @@ else
   set guifont=Monaco:h18
 end
 
-if has("gui_macvim")
+if has("gui_running")
   set transparency=0
 
   " move a line of text using ALT+[jk] or Comamnd+[jk] on mac
