@@ -14,12 +14,6 @@ end
 if has("gui_running")
   set transparency=0
 
-  " move a line of text using ALT+[jk] or Comamnd+[jk] on mac
-  nmap <D-j> mz:m+<cr>`z
-  nmap <D-k> mz:m-2<cr>`z
-  vmap <D-j> :m'>+<cr>`<my`>mzgv`yo`z
-  vmap <D-k> :m'<-2<cr>`>my`<mzgv`yo`z
-
   " disable default menu hot key
   macmenu &File.New\ Window key=<nop>
   macmenu &File.Close key=<nop>

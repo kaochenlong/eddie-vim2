@@ -86,24 +86,6 @@ set wildignore+=tmp/**
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 
-" ======================================
-"  custom key and plugin configurations
-" ======================================
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
-
-" comment
-map <Leader><Leader> <Leader>c<space>
-
-" identation
-nmap <TAB> v>
-nmap <S-TAB> v<
-vmap <TAB> >gv
-vmap <S-TAB> <gv
-
-" remap VIM 0
-map 0 ^
-
-" cancel searched highlight
-noremap <CR> :nohlsearch<CR>
 
