@@ -41,7 +41,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 2. `cd ~` to change directory to your home directory.
 3. copy files to your home directory:
 
-   `git clone git://github.com/kaochenlong/eddie-vim2.git`
+   `git clone git://github.com/kaochenlong/eddie-vim2.git .vim`
 
 4. make a symbolic link to vimrc:
 
