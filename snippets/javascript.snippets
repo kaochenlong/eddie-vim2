@@ -9,3 +9,21 @@ snippet init
 	  super(props);
 	  ${1}
 	}${2}
+snippet p
+	this.props.${1}
+snippet s
+	this.state.${1}
+snippet ren
+	render() {
+		return (
+			${1:<View />}
+		);
+	}${2}
+snippet view
+	<View style={{${1:styles.container}}>
+	  ${2}
+	</View>${3}
+snippet text
+	<Text style={{${1:styles.text}}>
+	  ${2}
+	</Text>${3}
