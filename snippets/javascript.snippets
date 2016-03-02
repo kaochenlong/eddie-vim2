@@ -13,7 +13,7 @@ snippet p
 	this.props.${1}
 snippet s
 	this.state.${1}
-snippet ren
+snippet render
 	render() {
 		return (
 			${1:<View />}
@@ -27,3 +27,7 @@ snippet text
 	<Text style={${1:styles.text}}>
 	  ${2}
 	</Text>${3}
+snippet set
+	this.setState({
+	  ${1:key}: ${2:value},
+	});${3}
