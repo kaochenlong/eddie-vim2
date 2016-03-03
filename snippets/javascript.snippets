@@ -4,6 +4,13 @@ snippet log
 # -----------------------------------------
 # special snippets for react native
 # -----------------------------------------
+snippet import React
+	import React from 'react-native';
+snippet import Component
+	import ${1:ComponentName} from '${2:ComponentPath}';
+snippet cla
+	class ${1:ClassName} extends Component {
+	}${2}
 snippet init constructor
 	constructor(props) {
 	  super(props);
