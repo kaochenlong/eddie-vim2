@@ -7,8 +7,10 @@ snippet log
 snippet init constructor
 	constructor(props) {
 	  super(props);
-	  ${1}
-	}${2}
+	  this.state = {
+	    ${1:key}: ${2:value},
+	  }
+	}${3}
 snippet init getInitialState
 	getInitialState() {
 	  return {
