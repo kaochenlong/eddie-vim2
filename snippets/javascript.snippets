@@ -4,11 +4,17 @@ snippet log
 # -----------------------------------------
 # special snippets for react native
 # -----------------------------------------
-snippet init
+snippet init constructor
 	constructor(props) {
 	  super(props);
 	  ${1}
 	}${2}
+snippet init getInitialState
+	getInitialState() {
+	  return {
+	    ${1:key}: ${2:value},
+	  }
+	},${2}
 snippet p
 	this.props.${1}
 snippet s
