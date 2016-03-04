@@ -8,8 +8,15 @@ snippet import React
 	import React from 'react-native';
 snippet import Component
 	import ${1:ComponentName} from '${2:ComponentPath}';
-snippet cla
+snippet cla Class
 	class ${1:ClassName} extends Component {
+	}${2}
+snippet cla Class With Render
+	class ${1:ClassName} extends Component {
+		render() {
+			return (
+			);
+		}
 	}${2}
 snippet init constructor
 	constructor(props) {
