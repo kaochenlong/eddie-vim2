@@ -1,0 +1,59 @@
+snippet hm
+	has_many :${1}s, ${2:ModelName}
+snippet bt
+	belongs_to :${1}, ${2:ModelName}
+snippet flash SET
+	put_flash(conn, :${1:info}, ${2:message})
+snippet flash GET
+	get_flash(@conn, :${1:info})
+snippet cond
+	cond do
+		${1} ->
+			${2}
+	end
+snippet case
+	case ${1} do
+		${2} ->
+			${3}
+	end
+snippet for
+	for ${1:item} <- ${2:items} do
+		${3}
+	end
+snippet def
+	def ${1:name} do
+		${2}
+	end
+snippet defm
+	defmodule ${1:module_name} do
+		${2}
+	end
+snippet defa
+	def ${1:function_name}(conn, ${2:_params}) do
+		${3}
+	end
+snippet defp
+	defp ${1:name} do
+		${2}
+	end
+snippet req
+	require ${1:module_name}
+snippet imp
+	import ${1:module_name}
+snippet ali
+	alias ${1:module_name}
+snippet pry
+	require IEx; IEx.pry
+	${1}
+snippet render
+	render conn, "${1:template}"
+snippet doc Function Document
+	@doc """
+	${1:content}
+	"""
+snippet doc Module Document
+	@moduledoc """
+	${1:content}
+	"""
+snippet puts
+	IO.puts ${1:content}
